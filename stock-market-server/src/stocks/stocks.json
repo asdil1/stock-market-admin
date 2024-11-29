@@ -1,0 +1,34 @@
+[
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc."
+  },
+  {
+    "symbol": "SBUX",
+    "name": "Starbucks Corporation"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation"
+  },
+  {
+    "symbol": "CSCO",
+    "name": "Cisco Systems Inc."
+  },
+  {
+    "symbol": "QCOM",
+    "name": "QUALCOMM Incorporated"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc."
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla Inc."
+  },
+  {
+    "symbol": "AMD",
+    "name": "Advanced Micro Devices Inc."
+  }
+]

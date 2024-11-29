@@ -1,0 +1,241 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff; /* Фон заголовка */
+    border-bottom: 1px solid #ccc; /* Линия под заголовком */
+    padding: 10px 20px;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-buttons a {
+    background-color: transparent;
+    color: #007bff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: color 0.3s;
+    text-decoration: none
+}
+
+.nav-buttons a:hover {
+    color: #e36868
+}
+
+.main-content {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+li:hover {
+    background-color: #f9f9f9;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.brokers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.delete-broker {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-broker:hover {
+    background-color: #bc1d0f;
+}
+
+.edit-broker{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.add-broker{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    max-width: 150px;
+}
+
+.add-broker:hover {
+    background-color: #004eaa; /* Цвет текста при наведении */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    max-width: 400px;
+}
+
+label {
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.broker-name {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 4px;
+}
+
+.stocks-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.start-trading,
+.stop-trading,
+.check-data  {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    max-width: 150px;
+}
+
+.start-trading:hover,
+.stop-trading:hover,
+.check-data:hover {
+    background-color: #004eaa; /* Цвет текста при наведении */
+}
+
+input[type="checkbox"] {
+    cursor: pointer; /* Указатель при наведении на чекбокс */
+    margin-right: 10px; /* Отступ справа для чекбокса */
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-close {
+    float: right;
+    background: none;
+    color: #007bff;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: color 0.2s;
+}
+
+.modal-close:hover {
+    color: red;
+}
+
+.settings label,
+.settings input,
+.settings button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.settings input,
+.settings button {
+    max-width: 100px;
+}
+
+@media screen and (max-width: 425px) {
+    header {
+        display: flex;
+        flex-direction: column
+    }
+    li {
+        display: flex;
+        flex-direction: column;
+    }
+    .brokers {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Брокер 1",
+    "funds": 1000,
+    "stocks": []
+  },
+  {
+    "id": 2,
+    "name": "Брокер 2",
+    "funds": 2000,
+    "stocks": []
+  },
+  {
+    "id": 3,
+    "name": "Dmitry",
+    "funds": 3000,
+    "stocks": []
+  },
+  {
+    "id": 4,
+    "name": "newBroker",
+    "funds": 30000,
+    "stocks": []
+  },
+  {
+    "id": 5,
+    "name": "newUser",
+    "funds": 50000,
+    "stocks": []
+  },
+  {
+    "id": 6,
+    "name": "dima",
+    "funds": 94304.9,
+    "stocks": [
+      {
+        "symbol": "AAPL",
+        "quantity": 26,
+        "price": 219.0423076923077
+      }
+    ]
+  }
+]

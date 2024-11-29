@@ -1,0 +1,197 @@
+[
+  {
+    "symbol": "AAPL",
+    "date": "2024-11-04",
+    "price": "222.0100"
+  },
+  {
+    "symbol": "AAPL",
+    "date": "2024-10-31",
+    "price": "225.9100"
+  },
+  {
+    "symbol": "AAPL",
+    "date": "2024-10-01",
+    "price": "250.5400"
+  },
+  {
+    "symbol": "AAPL",
+    "date": "2024-09-30",
+    "price": "252.3000"
+  },
+  {
+    "symbol": "AAPL",
+    "date": "2024-09-15",
+    "price": "249.9000"
+  },
+  {
+    "symbol": "SBUX",
+    "date": "2024-11-04",
+    "price": "99.1500"
+  },
+  {
+    "symbol": "SBUX",
+    "date": "2024-10-31",
+    "price": "97.8000"
+  },
+  {
+    "symbol": "SBUX",
+    "date": "2024-10-01",
+    "price": "100.5000"
+  },
+  {
+    "symbol": "SBUX",
+    "date": "2024-09-30",
+    "price": "101.2000"
+  },
+  {
+    "symbol": "SBUX",
+    "date": "2024-09-15",
+    "price": "100.7500"
+  },
+  {
+    "symbol": "MSFT",
+    "date": "2024-11-04",
+    "price": "342.7000"
+  },
+  {
+    "symbol": "MSFT",
+    "date": "2024-10-31",
+    "price": "345.1000"
+  },
+  {
+    "symbol": "MSFT",
+    "date": "2024-10-01",
+    "price": "350.5000"
+  },
+  {
+    "symbol": "MSFT",
+    "date": "2024-09-30",
+    "price": "348.9000"
+  },
+  {
+    "symbol": "MSFT",
+    "date": "2024-09-15",
+    "price": "346.7500"
+  },
+  {
+    "symbol": "CSCO",
+    "date": "2024-11-04",
+    "price": "54.8000"
+  },
+  {
+    "symbol": "CSCO",
+    "date": "2024-10-31",
+    "price": "54.2000"
+  },
+  {
+    "symbol": "CSCO",
+    "date": "2024-10-01",
+    "price": "55.0000"
+  },
+  {
+    "symbol": "CSCO",
+    "date": "2024-09-30",
+    "price": "54.5000"
+  },
+  {
+    "symbol": "CSCO",
+    "date": "2024-09-15",
+    "price": "54.8000"
+  },
+  {
+    "symbol": "QCOM",
+    "date": "2024-11-04",
+    "price": "116.2500"
+  },
+  {
+    "symbol": "QCOM",
+    "date": "2024-10-31",
+    "price": "115.7500"
+  },
+  {
+    "symbol": "QCOM",
+    "date": "2024-10-01",
+    "price": "119.5000"
+  },
+  {
+    "symbol": "QCOM",
+    "date": "2024-09-30",
+    "price": "118.2000"
+  },
+  {
+    "symbol": "QCOM",
+    "date": "2024-09-15",
+    "price": "117.8000"
+  },
+  {
+    "symbol": "AMZN",
+    "date": "2024-11-04",
+    "price": "136.5000"
+  },
+  {
+    "symbol": "AMZN",
+    "date": "2024-10-31",
+    "price": "135.2500"
+  },
+  {
+    "symbol": "AMZN",
+    "date": "2024-10-01",
+    "price": "138.0000"
+  },
+  {
+    "symbol": "AMZN",
+    "date": "2024-09-30",
+    "price": "137.5000"
+  },
+  {
+    "symbol": "AMZN",
+    "date": "2024-09-15",
+    "price": "136.8000"
+  },
+  {
+    "symbol": "TSLA",
+    "date": "2024-11-04",
+    "price": "218.5000"
+  },
+  {
+    "symbol": "TSLA",
+    "date": "2024-10-31",
+    "price": "214.0000"
+  },
+  {
+    "symbol": "TSLA",
+    "date": "2024-10-01",
+    "price": "220.0000"
+  },
+  {
+    "symbol": "TSLA",
+    "date": "2024-09-30",
+    "price": "219.5000"
+  },
+  {
+    "symbol": "TSLA",
+    "date": "2024-09-15",
+    "price": "218.0000"
+  },
+  {
+    "symbol": "AMD",
+    "date": "2024-11-04",
+    "price": "74.2000"
+  },
+  {
+    "symbol": "AMD",
+    "date": "2024-10-31",
+    "price": "73.5000"
+  },
+  {
+    "symbol": "AMD",
+    "date": "2024-10-01",
+    "price": "75.0000"
+  },
+  {
+    "symbol": "AMD",
+    "date": "2024-09-30",
+    "price": "74.8000"
+  }
+]
